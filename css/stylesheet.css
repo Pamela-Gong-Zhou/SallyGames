@@ -2,9 +2,6 @@
 
 body{
     background-image: url(../img/pattern.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -76,19 +73,18 @@ a{
     border-radius: 20px;
 }
 
-
 #open-closet{
     width: 45%;
     z-index: 1;
 }
 
 #open-closet img{
-    width: 120%;
+    width: 100%;
 }
 
 #blue-dress {
     position: absolute;
-    left: 15%; 
+    left: 20%; 
     top: 15%; 
     z-index: 5;
 }
@@ -110,14 +106,15 @@ a{
 
 #pink-dress {
     position: absolute;
-    left: 25%; 
-    top: 15%; 
+    left: 28%; 
+    top: 14%; 
     z-index: 7;
 }
 
 #pink-dress:hover {
     transform: scale(1.1);
 }
+
 
 .finish{
     color: lightcoral;

@@ -32,6 +32,7 @@ header{
 }
 
 #closetlayout{
+    padding-top: 200px;
     width:100%;
     margin: auto;
     display: flex;
@@ -42,23 +43,23 @@ header{
 
 #title{
     color:palevioletred;
-    font-size: 6rem;
+    font-size: 8rem;
     text-align: left;
 }
 
 #instruction{
     color: lightcoral;
-    font-size: 40pt;
+    font-size: 5rem;
     text-align: left;
 }
 
 #start{
     color: lightcoral;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     background-color: lightblue;
     border-radius: 20px;
-    width: 30%;
+    width: 150%;
     margin: auto;
 }
 
@@ -68,9 +69,9 @@ a{
 }
 
 #head{
-    text-align: right;
     background-color: lightyellow;
     border-radius: 20px;
+    margin-right: 150px;
 }
 
 #open-closet{
@@ -82,10 +83,14 @@ a{
     width: 100%;
 }
 
+#model{
+    padding-top: 80px;
+}
+
 #blue-dress {
     position: absolute;
-    left: 20%; 
-    top: 15%; 
+    left: 18%; 
+    top: 28%; 
     z-index: 5;
 }
 
@@ -93,10 +98,14 @@ a{
     transform: scale(1.1);
 }
 
+#blue-model{
+    padding-top: 150px;
+}
+
 #black-dress {
     position: absolute;
-    left: 35%; 
-    top: 15%; 
+    left: 34%; 
+    top: 28%; 
     z-index: 6;
 }
 
@@ -104,10 +113,14 @@ a{
     transform: scale(1.1);
 }
 
+#black-model{
+    padding-top: 150px;
+}
+
 #pink-dress {
     position: absolute;
-    left: 28%; 
-    top: 14%; 
+    left: 26%; 
+    top: 27%; 
     z-index: 7;
 }
 
@@ -115,6 +128,9 @@ a{
     transform: scale(1.1);
 }
 
+#pink-model{
+    padding-top: 150px;
+}
 
 .finish{
     color: lightcoral;

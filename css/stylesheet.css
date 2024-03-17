@@ -144,7 +144,7 @@ a{
 
 .again{
     color: lightcoral;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     background-color: lightblue;
     border-radius: 20px;
@@ -155,18 +155,41 @@ a{
 .score{
     position: absolute;
     animation-name: score;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
 @keyframes score{
         from {
         right: 300px;  
-        top: 500px;
+        top: 1000px;
         }
 
         to{
             right: 300px;
-            top: 10px;
+            top: 100px;
         }
+}
+
+.score-two{
+    position: absolute;
+    animation-name: score;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes score-two{
+    from {
+    left: 300px;  
+    top: 1000px;
+    }
+
+    to{
+        left: 300px;
+        top: 100px;
+    }
+}
+
+.final{
+    margin-top: 150px;
 }

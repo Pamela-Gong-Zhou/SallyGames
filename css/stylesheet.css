@@ -171,7 +171,7 @@ a{
         }
 }
 
-.score-two{
+.scoretwo{
     position: absolute;
     animation-name: score;
     animation-duration: 3s;
@@ -180,13 +180,13 @@ a{
 
 @keyframes score-two{
     from {
-    left: 300px;  
-    top: 1000px;
+    left: 100px;  
+    top: 100px;
     }
 
     to{
-        left: 300px;
-        top: 100px;
+        left: 100px;
+        top: 1000px;
     }
 }
 

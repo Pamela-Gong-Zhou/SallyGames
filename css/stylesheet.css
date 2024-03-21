@@ -222,7 +222,7 @@ a{
         border-radius: 1.25em;
         text-align: right;
         margin-bottom: 1.5em;
-        width: 6em;
+        width: 43.75em;
     }
 
     body{
@@ -239,8 +239,25 @@ a{
         margin-top: 0em;
         margin-bottom: 0em;
         color:palevioletred;
+        font-size: 5em;
+        text-align: center;
+    }
+
+    #instruction{
+        margin-top: 1em;
+        color: lightcoral;
         font-size: 3em;
-        text-align: left;
+        text-align: center;
+    }
+    
+    #start{
+        height: 300;
+        text-align: center;
+        color: lightcoral;
+        font-size: 2em;
+        background-color: lightblue;
+        border-radius: 1.25em;
+        padding: 0.5em;
     }
 
 }

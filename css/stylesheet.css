@@ -209,7 +209,7 @@ a{
 
     #homepagelayout{
         text-align: center;
-        width:100%;
+        width:37.5em;
         margin: auto;
         margin-top: 10%;
     }
@@ -232,6 +232,7 @@ a{
         text-align: center;
         color:palevioletred;
         font-size: 1em;
+        width: 37.5em;
     }
 
     #title{

@@ -208,8 +208,9 @@ a{
     }
 
     #homepagelayout{
+        display: block;
         text-align: center;
-        width:37.5em;
+        width: 75%; 
         margin: auto;
         margin-top: 10%;
     }
@@ -220,8 +221,16 @@ a{
         border-radius: 1.25em;
         text-align: left;
         margin-bottom: 1.5em;
-        width: 20.08em;
+        width: 50%;
         margin-left: 0em;
+    }
+
+    #head img {
+        width: 95%; 
+    }
+
+    audio {
+        margin: auto; 
     }
 
     body{
